@@ -1,0 +1,2843 @@
+{
+    "data": [
+        {
+            "nodeName": "scaleleaf-201",
+            "nodeId": "201",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO220120HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 74,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-202",
+            "nodeId": "202",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO220220HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 85,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-203",
+            "nodeId": "203",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO220320HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 74,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-204",
+            "nodeId": "204",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO220420HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 85,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-205",
+            "nodeId": "205",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO220520HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 85,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/5",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/5",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/5",
+                    "neighbourNode": "scalespine-602"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-206",
+            "nodeId": "206",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO220620HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 85,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/6",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/6",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/6",
+                    "neighbourNode": "scalespine-603"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-207",
+            "nodeId": "207",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO220720HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 85,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/7",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/7",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/7",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-208",
+            "nodeId": "208",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO220820HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/8",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/8",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/8",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-209",
+            "nodeId": "209",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO220920HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/9",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/9",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/9",
+                    "neighbourNode": "scalespine-602"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-210",
+            "nodeId": "210",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO221021HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/10",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/10",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/10",
+                    "neighbourNode": "scalespine-603"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-211",
+            "nodeId": "211",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO221121HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/11",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/11",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/11",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-212",
+            "nodeId": "212",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO221221HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/12",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/12",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/12",
+                    "neighbourNode": "scalespine-602"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-213",
+            "nodeId": "213",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO221321HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/13",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/13",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/13",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-214",
+            "nodeId": "214",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO221421HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/14",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/14",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/14",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-215",
+            "nodeId": "215",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO221521HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/15",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/15",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/15",
+                    "neighbourNode": "scalespine-603"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-216",
+            "nodeId": "216",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO221621HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/16",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/16",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/16",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-217",
+            "nodeId": "217",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO221721HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/17",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/17",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/17",
+                    "neighbourNode": "scalespine-602"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-218",
+            "nodeId": "218",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO221821HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/18",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/18",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/18",
+                    "neighbourNode": "scalespine-603"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-219",
+            "nodeId": "219",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO221921HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/19",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/19",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/19",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-220",
+            "nodeId": "220",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO222022HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/20",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/20",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/20",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-221",
+            "nodeId": "221",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO222122HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/21",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/21",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/21",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-222",
+            "nodeId": "222",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO222222HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/22",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/22",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/22",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-223",
+            "nodeId": "223",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO222322HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/23",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/23",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/23",
+                    "neighbourNode": "scalespine-603"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-224",
+            "nodeId": "224",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO222422HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/24",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/24",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/24",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-225",
+            "nodeId": "225",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO222522HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/25",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/25",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/25",
+                    "neighbourNode": "scalespine-602"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-226",
+            "nodeId": "226",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO222622HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/26",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/26",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/26",
+                    "neighbourNode": "scalespine-603"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-227",
+            "nodeId": "227",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO222722HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/27",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/27",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/27",
+                    "neighbourNode": "scalespine-602"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-228",
+            "nodeId": "228",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO222822HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/28",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/28",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/28",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-229",
+            "nodeId": "229",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO222922HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/29",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/29",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/29",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-230",
+            "nodeId": "230",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO223023HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/30",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/30",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/30",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-231",
+            "nodeId": "231",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO223123HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/31",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/31",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/31",
+                    "neighbourNode": "scalespine-603"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-232",
+            "nodeId": "232",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO223223HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/32",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/32",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/32",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-233",
+            "nodeId": "233",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO223323HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/33",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/33",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/33",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-234",
+            "nodeId": "234",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO223423HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/34",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/34",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/34",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-235",
+            "nodeId": "235",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO223523HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/35",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/35",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/35",
+                    "neighbourNode": "scalespine-602"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-236",
+            "nodeId": "236",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO223623HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/36",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/36",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/36",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-237",
+            "nodeId": "237",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO223723HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/37",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/37",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/37",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-238",
+            "nodeId": "238",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO223823HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/38",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/38",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/38",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-239",
+            "nodeId": "239",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO223923HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/39",
+                    "neighbourNode": "scalespine-602"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/39",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/39",
+                    "neighbourNode": "scalespine-601"
+                }
+            ]
+        },
+        {
+            "nodeName": "scaleleaf-240",
+            "nodeId": "240",
+            "nodeRole": "leaf",
+            "operSt": "active",
+            "model": "N9K-C93180YC-FX",
+            "serial": "FDO224024HC",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/40",
+                    "neighbourNode": "scalespine-603"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/40",
+                    "neighbourNode": "scalespine-601"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scalespine-604"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/40",
+                    "neighbourNode": "scalespine-602"
+                }
+            ]
+        },
+        {
+            "nodeName": "scalespine-601",
+            "nodeId": "601",
+            "nodeRole": "spine",
+            "operSt": "active",
+            "model": "N9K-C9508",
+            "serial": "SAL60160MHM",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-203"
+                },
+                {
+                    "interface": "eth1/22",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-222"
+                },
+                {
+                    "interface": "eth1/40",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-240"
+                },
+                {
+                    "interface": "eth1/37",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-237"
+                },
+                {
+                    "interface": "eth1/29",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-229"
+                },
+                {
+                    "interface": "eth1/30",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-230"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-201"
+                },
+                {
+                    "interface": "eth1/21",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-221"
+                },
+                {
+                    "interface": "eth1/16",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-216"
+                },
+                {
+                    "interface": "eth1/34",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-234"
+                },
+                {
+                    "interface": "eth1/8",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-208"
+                },
+                {
+                    "interface": "eth1/5",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-205"
+                },
+                {
+                    "interface": "eth1/10",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-210"
+                },
+                {
+                    "interface": "eth1/32",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-232"
+                },
+                {
+                    "interface": "eth1/20",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-220"
+                },
+                {
+                    "interface": "eth1/28",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-228"
+                },
+                {
+                    "interface": "eth1/27",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-227"
+                },
+                {
+                    "interface": "eth1/18",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-218"
+                },
+                {
+                    "interface": "eth1/38",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-238"
+                },
+                {
+                    "interface": "eth1/36",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-236"
+                },
+                {
+                    "interface": "eth1/31",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-231"
+                },
+                {
+                    "interface": "eth1/13",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-213"
+                },
+                {
+                    "interface": "eth1/33",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-233"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-204"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-202"
+                },
+                {
+                    "interface": "eth1/25",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-225"
+                },
+                {
+                    "interface": "eth1/12",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-212"
+                },
+                {
+                    "interface": "eth1/7",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-207"
+                },
+                {
+                    "interface": "eth1/24",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-224"
+                },
+                {
+                    "interface": "eth1/15",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-215"
+                },
+                {
+                    "interface": "eth1/26",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-226"
+                },
+                {
+                    "interface": "eth1/19",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-219"
+                },
+                {
+                    "interface": "eth1/6",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-206"
+                },
+                {
+                    "interface": "eth1/17",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-217"
+                },
+                {
+                    "interface": "eth1/35",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-235"
+                },
+                {
+                    "interface": "eth1/14",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-214"
+                },
+                {
+                    "interface": "eth1/9",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-209"
+                },
+                {
+                    "interface": "eth1/23",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-223"
+                },
+                {
+                    "interface": "eth1/39",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-239"
+                },
+                {
+                    "interface": "eth1/11",
+                    "neighbourInterface": "eth1/1",
+                    "neighbourNode": "scaleleaf-211"
+                }
+            ]
+        },
+        {
+            "nodeName": "scalespine-602",
+            "nodeId": "602",
+            "nodeRole": "spine",
+            "operSt": "active",
+            "model": "N9K-C9508",
+            "serial": "SAL60260MHM",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/18",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-218"
+                },
+                {
+                    "interface": "eth1/22",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-222"
+                },
+                {
+                    "interface": "eth1/38",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-238"
+                },
+                {
+                    "interface": "eth1/19",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-219"
+                },
+                {
+                    "interface": "eth1/27",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-227"
+                },
+                {
+                    "interface": "eth1/21",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-221"
+                },
+                {
+                    "interface": "eth1/26",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-226"
+                },
+                {
+                    "interface": "eth1/5",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-205"
+                },
+                {
+                    "interface": "eth1/39",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-239"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-202"
+                },
+                {
+                    "interface": "eth1/20",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-220"
+                },
+                {
+                    "interface": "eth1/28",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-228"
+                },
+                {
+                    "interface": "eth1/8",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-208"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-204"
+                },
+                {
+                    "interface": "eth1/24",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-224"
+                },
+                {
+                    "interface": "eth1/7",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-207"
+                },
+                {
+                    "interface": "eth1/30",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-230"
+                },
+                {
+                    "interface": "eth1/14",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-214"
+                },
+                {
+                    "interface": "eth1/15",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-215"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-201"
+                },
+                {
+                    "interface": "eth1/13",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-213"
+                },
+                {
+                    "interface": "eth1/6",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-206"
+                },
+                {
+                    "interface": "eth1/29",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-229"
+                },
+                {
+                    "interface": "eth1/9",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-209"
+                },
+                {
+                    "interface": "eth1/25",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-225"
+                },
+                {
+                    "interface": "eth1/12",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-212"
+                },
+                {
+                    "interface": "eth1/36",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-236"
+                },
+                {
+                    "interface": "eth1/31",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-231"
+                },
+                {
+                    "interface": "eth1/11",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-211"
+                },
+                {
+                    "interface": "eth1/16",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-216"
+                },
+                {
+                    "interface": "eth1/23",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-223"
+                },
+                {
+                    "interface": "eth1/10",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-210"
+                },
+                {
+                    "interface": "eth1/35",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-235"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-203"
+                },
+                {
+                    "interface": "eth1/32",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-232"
+                },
+                {
+                    "interface": "eth1/17",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-217"
+                },
+                {
+                    "interface": "eth1/34",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-234"
+                },
+                {
+                    "interface": "eth1/33",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-233"
+                },
+                {
+                    "interface": "eth1/37",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-237"
+                },
+                {
+                    "interface": "eth1/40",
+                    "neighbourInterface": "eth1/2",
+                    "neighbourNode": "scaleleaf-240"
+                }
+            ]
+        },
+        {
+            "nodeName": "scalespine-603",
+            "nodeId": "603",
+            "nodeRole": "spine",
+            "operSt": "active",
+            "model": "N9K-C9508",
+            "serial": "SAL60360MHM",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 74,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/23",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-223"
+                },
+                {
+                    "interface": "eth1/12",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-212"
+                },
+                {
+                    "interface": "eth1/17",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-217"
+                },
+                {
+                    "interface": "eth1/22",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-222"
+                },
+                {
+                    "interface": "eth1/10",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-210"
+                },
+                {
+                    "interface": "eth1/29",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-229"
+                },
+                {
+                    "interface": "eth1/28",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-228"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-204"
+                },
+                {
+                    "interface": "eth1/34",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-234"
+                },
+                {
+                    "interface": "eth1/6",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-206"
+                },
+                {
+                    "interface": "eth1/18",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-218"
+                },
+                {
+                    "interface": "eth1/20",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-220"
+                },
+                {
+                    "interface": "eth1/16",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-216"
+                },
+                {
+                    "interface": "eth1/36",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-236"
+                },
+                {
+                    "interface": "eth1/9",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-209"
+                },
+                {
+                    "interface": "eth1/39",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-239"
+                },
+                {
+                    "interface": "eth1/21",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-221"
+                },
+                {
+                    "interface": "eth1/19",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-219"
+                },
+                {
+                    "interface": "eth1/26",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-226"
+                },
+                {
+                    "interface": "eth1/27",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-227"
+                },
+                {
+                    "interface": "eth1/8",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-208"
+                },
+                {
+                    "interface": "eth1/32",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-232"
+                },
+                {
+                    "interface": "eth1/37",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-237"
+                },
+                {
+                    "interface": "eth1/14",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-214"
+                },
+                {
+                    "interface": "eth1/31",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-231"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-202"
+                },
+                {
+                    "interface": "eth1/24",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-224"
+                },
+                {
+                    "interface": "eth1/11",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-211"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-201"
+                },
+                {
+                    "interface": "eth1/33",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-233"
+                },
+                {
+                    "interface": "eth1/7",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-207"
+                },
+                {
+                    "interface": "eth1/30",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-230"
+                },
+                {
+                    "interface": "eth1/15",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-215"
+                },
+                {
+                    "interface": "eth1/35",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-235"
+                },
+                {
+                    "interface": "eth1/13",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-213"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-203"
+                },
+                {
+                    "interface": "eth1/40",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-240"
+                },
+                {
+                    "interface": "eth1/5",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-205"
+                },
+                {
+                    "interface": "eth1/25",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-225"
+                },
+                {
+                    "interface": "eth1/38",
+                    "neighbourInterface": "eth1/3",
+                    "neighbourNode": "scaleleaf-238"
+                }
+            ]
+        },
+        {
+            "nodeName": "scalespine-604",
+            "nodeId": "604",
+            "nodeRole": "spine",
+            "operSt": "active",
+            "model": "N9K-C9508",
+            "serial": "SAL60460MHM",
+            "version": "n9000-15.0(1)",
+            "anomalyScore": 0,
+            "fabricLinks": [
+                {
+                    "interface": "eth1/24",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-224"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-236"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-221"
+                },
+                {
+                    "interface": "eth1/23",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-223"
+                },
+                {
+                    "interface": "eth1/25",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-225"
+                },
+                {
+                    "interface": "eth1/18",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-218"
+                },
+                {
+                    "interface": "eth1/15",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-215"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-238"
+                },
+                {
+                    "interface": "eth1/7",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-207"
+                },
+                {
+                    "interface": "eth1/10",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-210"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-204"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-219"
+                },
+                {
+                    "interface": "eth1/26",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-226"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-223"
+                },
+                {
+                    "interface": "eth1/32",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-232"
+                },
+                {
+                    "interface": "eth1/34",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-234"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-240"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-209"
+                },
+                {
+                    "interface": "eth1/3",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-203"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-234"
+                },
+                {
+                    "interface": "eth1/37",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-237"
+                },
+                {
+                    "interface": "eth1/35",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-235"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-210"
+                },
+                {
+                    "interface": "eth1/8",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-208"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-226"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-211"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-212"
+                },
+                {
+                    "interface": "eth1/22",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-222"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-206"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-233"
+                },
+                {
+                    "interface": "eth1/30",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-230"
+                },
+                {
+                    "interface": "eth1/27",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-227"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-229"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-232"
+                },
+                {
+                    "interface": "eth1/5",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-205"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-218"
+                },
+                {
+                    "interface": "eth1/13",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-213"
+                },
+                {
+                    "interface": "eth1/40",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-240"
+                },
+                {
+                    "interface": "eth1/39",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-239"
+                },
+                {
+                    "interface": "eth1/38",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-238"
+                },
+                {
+                    "interface": "eth1/17",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-217"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-203"
+                },
+                {
+                    "interface": "eth1/11",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-211"
+                },
+                {
+                    "interface": "eth1/1",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-201"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-230"
+                },
+                {
+                    "interface": "eth1/16",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-216"
+                },
+                {
+                    "interface": "eth1/14",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-214"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-237"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-216"
+                },
+                {
+                    "interface": "eth1/21",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-221"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-231"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-228"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-222"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-201"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-225"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-217"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-220"
+                },
+                {
+                    "interface": "eth1/19",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-219"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-208"
+                },
+                {
+                    "interface": "eth1/33",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-233"
+                },
+                {
+                    "interface": "eth1/9",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-209"
+                },
+                {
+                    "interface": "eth1/12",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-212"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-214"
+                },
+                {
+                    "interface": "eth1/36",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-236"
+                },
+                {
+                    "interface": "eth1/6",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-206"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-213"
+                },
+                {
+                    "interface": "eth1/28",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-228"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-224"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-202"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-235"
+                },
+                {
+                    "interface": "eth1/2",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-202"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-205"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-227"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-215"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-207"
+                },
+                {
+                    "interface": "eth1/31",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-231"
+                },
+                {
+                    "interface": "eth1/29",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-229"
+                },
+                {
+                    "interface": "eth1/4",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-239"
+                },
+                {
+                    "interface": "eth1/20",
+                    "neighbourInterface": "eth1/4",
+                    "neighbourNode": "scaleleaf-220"
+                }
+            ]
+        }
+    ],
+
+	
+    
+    "data2": [
+        {
+            "nodeName": "scalespine-603",
+            "nodeId": "603",
+            "nodeRole": "spine",
+            "operSt": "active",
+            "model": "N9K-C9508",
+            "serial": "SAL60360MHM",
+            "version": "n9000-15.0(1)",
+            "interface": [
+                {
+                    "sourceName": "interface/interface-[eth1/24]",
+                    "sourceNameLabel": "eth1/24",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/11]",
+                    "sourceNameLabel": "eth1/11",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/2]",
+                    "sourceNameLabel": "eth1/2",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/37]",
+                    "sourceNameLabel": "eth1/37",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/1]",
+                    "sourceNameLabel": "eth1/1",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/17]",
+                    "sourceNameLabel": "eth1/17",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/12]",
+                    "sourceNameLabel": "eth1/12",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/21]",
+                    "sourceNameLabel": "eth1/21",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/32]",
+                    "sourceNameLabel": "eth1/32",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/10]",
+                    "sourceNameLabel": "eth1/10",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/28]",
+                    "sourceNameLabel": "eth1/28",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/20]",
+                    "sourceNameLabel": "eth1/20",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/26]",
+                    "sourceNameLabel": "eth1/26",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/33]",
+                    "sourceNameLabel": "eth1/33",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/39]",
+                    "sourceNameLabel": "eth1/39",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/34]",
+                    "sourceNameLabel": "eth1/34",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/27]",
+                    "sourceNameLabel": "eth1/27",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/40]",
+                    "sourceNameLabel": "eth1/40",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/23]",
+                    "sourceNameLabel": "eth1/23",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/13]",
+                    "sourceNameLabel": "eth1/13",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/29]",
+                    "sourceNameLabel": "eth1/29",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/22]",
+                    "sourceNameLabel": "eth1/22",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/16]",
+                    "sourceNameLabel": "eth1/16",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/9]",
+                    "sourceNameLabel": "eth1/9",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/35]",
+                    "sourceNameLabel": "eth1/35",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/19]",
+                    "sourceNameLabel": "eth1/19",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/3]",
+                    "sourceNameLabel": "eth1/3",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/38]",
+                    "sourceNameLabel": "eth1/38",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/5]",
+                    "sourceNameLabel": "eth1/5",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/8]",
+                    "sourceNameLabel": "eth1/8",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/36]",
+                    "sourceNameLabel": "eth1/36",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/15]",
+                    "sourceNameLabel": "eth1/15",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/25]",
+                    "sourceNameLabel": "eth1/25",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/14]",
+                    "sourceNameLabel": "eth1/14",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/4]",
+                    "sourceNameLabel": "eth1/4",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/31]",
+                    "sourceNameLabel": "eth1/31",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/6]",
+                    "sourceNameLabel": "eth1/6",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/7]",
+                    "sourceNameLabel": "eth1/7",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/30]",
+                    "sourceNameLabel": "eth1/30",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp",
+                        "cdp"
+                    ]
+                },
+                {
+                    "sourceName": "interface/interface-[eth1/18]",
+                    "sourceNameLabel": "eth1/18",
+                    "interfaceType": "physical",
+                    "adminStatus": "up",
+                    "operStatus": "up",
+                    "anomalyScore": 0,
+                    "protocolList": [
+                        "lldp",
+                        "lacp"
+                    ]
+                }
+            ]
+        }
+    ]
+}
