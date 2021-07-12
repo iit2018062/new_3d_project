@@ -92,6 +92,7 @@ function fetchlevel3(epg) {
 				setStatusMsg("data successfully fetched!");
 				var array = response.data.data;
 				//console.log(array);
+				//alert("could not find the result!")
 				if(response.data.data.length===0)
 				alert("could not find the result!")
 				var varnode = [];
@@ -104,7 +105,7 @@ function fetchlevel3(epg) {
 				var newInterfaceLinks = [];
 				var newEndpoints = [];
 				var newVms = [];
-				var newLeafs = [];
+				//var newLeafs = [];
 				var maxNodesInLevel = 14;
 				var nodesLeft = array.length;
 				var theta, radius=4, maxRadius, myObj, x, z;
@@ -127,7 +128,7 @@ function fetchlevel3(epg) {
 					counter += 1;
 
 					if (counter === maxNodesInLevel) {
-						maxRadius = radius;
+						//maxRadius = radius;
 						nodesLeft -= maxNodesInLevel;
 						counter = 0;
 						maxNodesInLevel += 5;
@@ -220,7 +221,9 @@ function fetchlevel3(epg) {
 							//console.log(epg);
 							const vmObj = {
 								data: input[j].endpoints[k].epg,
+								
 								vmName: input[j].endpoints[k].vmName,
+								hypervisor:input[j].endpoints[k].hypervisor,
 								position: [x_cor, y1 + 10, z_cor],
 							};
 							newVms.push(vmObj);
@@ -249,25 +252,11 @@ function fetchlevel3(epg) {
 		setInterfaceLink(newInterfaceLinks);
 		setEndpoints(newEndpoints);
 		setEpg(newVms);
-				
-				// newDefaultLoc[0] /= counter;
-				// newDefaultLoc[1] = 10;
-				// newDefaultLoc[2] /= counter;
-				//console.log(newDefaultLoc);
-				//set default location
 
 				setlevel3details(epgdetails);
 				setlevel3nodes(varnode);
 				setlevel3spine(spine);
 				setlevel3leaf(leaf);
-
-				// setDefaultCameraLookAt(newDefaultLoc);
-				// counter *= 3; //distance of camera from central point
-				// setDefaultCameraLoc([
-				// 	newDefaultLoc[0] + counter,
-				// 	newDefaultLoc[1] + counter,
-				// 	newDefaultLoc[2] + counter,
-				// ]);
 				
 			})
 			.catch((error) => {
@@ -275,30 +264,7 @@ function fetchlevel3(epg) {
 				console.error(error);
 			});
 	}
-	// useEffect(() => {
-	// 	resetCamera();
-	// 	console.log({defaultCameraLoc, defaultCameraLookAt})
-	// }, [defaultCameraLoc, defaultCameraLookAt])
-	function focuslevel2leaf(nodeData)
-	{
-		const nodeLoc = new THREE.Vector3(
-			nodeData.position[0],
-			nodeData.position[1],
-			nodeData.position[2]
-		);
 
-		const cameraLoc = new THREE.Vector3();
-		cameraLoc.addVectors(nodeLoc, new THREE.Vector3(20, 20, 20));
-		setTargetPosition(cameraLoc);
-
-		setTargetLookAt([
-			nodeData.position[0],
-			nodeData.position[1],
-			nodeData.position[2],
-		]);
-
-
-	}
 
 	function focusNodeLevel1(nodeData) {
 		//console.log(nodeData);
@@ -323,7 +289,7 @@ function fetchlevel3(epg) {
 		);
 
 		const cameraLoc = new THREE.Vector3();
-		cameraLoc.addVectors(nodeLoc, new THREE.Vector3(40, 40, 40));
+		cameraLoc.addVectors(nodeLoc, new THREE.Vector3(20, 20, 20));
 		setTargetPosition(cameraLoc);
 
 		setTargetLookAt([
@@ -392,10 +358,13 @@ function fetchlevel3(epg) {
 						nodeData.position[0] + radius * Math.cos(theta * i);
 					const z =
 						nodeData.position[2] + radius * Math.sin(theta * i);
-					const myObj = {
-						data: input[i],
-						position: [x, y, z],
-					};
+						const myObj = {
+							data: input[i],
+							radius:radius,
+							theta:(theta*i),
+							centre:[nodeData.position[0],nodeData.position[2]],
+							position: [x, y, z],
+						};
 					newInterfaceLinks.push({
 						src: nodeData.position,
 						target: [x, y, z],
@@ -433,6 +402,7 @@ function fetchlevel3(epg) {
 							const vmObj = {
 								data: input[i].endpoints[k].epg,
 								vmName: input[i].endpoints[k].vmName,
+								hypervisor:input[i].endpoints[k].hypervisor,
 								position: [x_cor, y + 10, z_cor],
 							};
 							newVms.push(vmObj);
@@ -450,12 +420,12 @@ function fetchlevel3(epg) {
 						nodesLeft -= maxNodesInLevel;
 						counter = 0;
 						maxNodesInLevel += 5;
-						y += 5; //distance added every level
+						y += 9; //distance added every level
 					}
 				}
 				//reamining spine links
 				var newSpines=[];
-				var  newLeaf = [];
+				
 				var newleaf =[];
 				const tempCombined = [...spines, ...leafs];
 				if (
@@ -493,48 +463,34 @@ function fetchlevel3(epg) {
 				else if(nodeData.data.nodeRole === "spine" && nodeData.data.fabricLinks !== undefined)
 				{
 					setlevel2leaf([]);
-					//console.log(nodeData);
 					newSpines.push(nodeData);
-					
-					
-					var y2 = nodeData.position[1]-14;
-
-					var c2=0;
-					var nl = nodeData.data.fabricLinks.length;
-					var mn=20;
 					for (let i in nodeData.data.fabricLinks) {
-						c2++;
-						var angle1 = (2*Math.PI)/ Math.min(mn, nl);
-						var ra = mn;
 						const node2 =nodeData.data.fabricLinks[i].neighbourNode;
 
 						//find target node
 						const targetIndex = tempCombined
 							.map((node) => node.data.nodeName)
 							.indexOf(node2);
-						var x2 = nodeData.position[0]+ra* Math.cos(angle1 * i);
-						var z2 = nodeData.position[2]+ra* Math.sin(angle1 * i);
-					    
+						const neighborinterface = nodeData.data.fabricLinks[i].interface;
+						const interfaceindex = newInterfaces
+							.map((node) => node.data.sourceNameLabel)
+							.indexOf(neighborinterface);
+					if(interfaceindex>=0 && interfaceindex<newInterfaces.length){
 						const myobject = {
 							data:tempCombined[targetIndex].data,
 							leafinterface: nodeData.data.fabricLinks[i].neighbourInterface,
 							spineinterface:nodeData.data.fabricLinks[i].interface,
-							position:[x2,y2,z2],
+							position:[newInterfaces[interfaceindex].centre[0]+(newInterfaces[interfaceindex].radius+4)*(Math.cos(newInterfaces[interfaceindex].theta)),newInterfaces[interfaceindex].position[1],newInterfaces[interfaceindex].centre[1]+(newInterfaces[interfaceindex].radius+4)*(Math.sin(newInterfaces[interfaceindex].theta))],
 						};
-						//console.log(myobject);
 						newleaf.push(myobject);
-						if(c2===mn)
-						{
-							c2=0;
-							y2+=4;
-							nl-=mn;
-							mn+=5;
-
-						}
-						
+						newInterfaceLinks.push({
+							color:"yellow",
+							src: [newInterfaces[interfaceindex].centre[0]+(newInterfaces[interfaceindex].radius+4)*(Math.cos(newInterfaces[interfaceindex].theta)),newInterfaces[interfaceindex].position[1],newInterfaces[interfaceindex].centre[1]+(newInterfaces[interfaceindex].radius+4)*(Math.sin(newInterfaces[interfaceindex].theta))],
+							target: newInterfaces[interfaceindex].position,
+							id: `${newInterfaces[interfaceindex].position[2]}${nodeData.data.fabricLinks.neighbourNode}${nodeData.position}${tempCombined[targetIndex].position}`,
+						});
 					}
-
-				}
+					}}
 				setlevel2spine(newSpines);
 				setlevel2leaf(newleaf);
 			}
