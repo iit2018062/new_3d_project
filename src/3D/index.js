@@ -36,11 +36,7 @@ export default function Main3DComp({
 	level2spine,
 	level2leaf,
 }) {
-	// console.log(level3);
-	// console.log(level3details);
-	// console.log(level3nodes);
-	// console.log(endpoints);
-	// console.log(vms);
+	
 	return (
 		<Canvas>
 			{/* lights */}

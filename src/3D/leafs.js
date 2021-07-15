@@ -1,7 +1,6 @@
 import React from "react";
 import CautionModel from "./models/Caution";
 import LeafModel from "./models/Leaf";
-import TickModel from "./models/Tick";
 
 export default function RenderLeafs({
 	leafs,
@@ -20,7 +19,6 @@ export default function RenderLeafs({
 		<group>
 			{leafs.map((node) => {
 				const score = node.data.anomalyScore;
-				const tick = score < 20 && score >= 0;
 				const caution = score > 20 && score <= 100;
 				counter++;
 				if (

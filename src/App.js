@@ -32,6 +32,7 @@ function App() {
 	const [interfaces, setInterfaces] = useState([]);
 	const [interfaceLink, setInterfaceLink] = useState([]);
 	const [endpoints, setEndpoints] = useState([]);
+	//here i missquoted vms as epgs so please consider it as vms
 	const [epg, setEpg] = useState([]);
 	const [hoverNode1, setHoverNode1] = useState(null);
 	const [isinterface, setisinterface] = useState(false);
@@ -43,17 +44,19 @@ function App() {
 	const [level3nodes, setlevel3nodes] = useState([]);
 	const [level3leaf, setlevel3leaf] = useState([]);
 	const [level3spine, setlevel3spine] = useState([]);
+	const [level3, setlevel3] = useState(false);
 	//level2
 	const [level2spine,setlevel2spine] = useState([]);
 	const [level2leaf,setlevel2leaf] = useState([]);
 
-	const [level3, setlevel3] = useState(false);
+	//this function is called when a person click on an interface. This moves the camera to the interface clicked
 	function focusNodeLevel2(nodeData) {
 		const nodeLoc = new THREE.Vector3(
 			nodeData.position[0],
 			nodeData.position[1],
 			nodeData.position[2]
 		);
+		//using vector addition to adjust the lookat vector 
 
 		const cameraLoc = new THREE.Vector3();
 		cameraLoc.addVectors(nodeLoc, new THREE.Vector3(5, 5, 5));
@@ -65,21 +68,27 @@ function App() {
 			nodeData.position[2],
 		]);
 	}
-
+//this function is called when user enters search item in search box
 	function level3call(epg) {
+//so every data is made null so that the canvas is cleared for level3
 		setInterfaces([]);
 		setInterfaceLink([]);
 		setEndpoints([]);
 		setEpg([]);
 		setlevel2spine([]);
 		setlevel2leaf([]);
+//we take a flag called level3 whoes true value indicate level3 is intiated 
 		setlevel3(true);
+// this is the function that will send api response request to backend.
 		fetchlevel3(epg);
 	}
+// function to send respose request for context based search and then modify the data
 function fetchlevel3(epg) {
+//these two values are made null so that level2 interfaces does not get rendered while showing level3 details
 	setlevel2spine([]);
 	setlevel2leaf([]);
-		resetCamera();
+//reset camera is called so that when the search icon is hit camera get in different position 
+	resetCamera();
 		axios({
 			url: "https://172.31.165.136:31782/api/telemetry/topology/search.json?filter="+epg,
 			method: "GET",
@@ -90,9 +99,9 @@ function fetchlevel3(epg) {
 		})
 			.then((response) => {
 				setStatusMsg("data successfully fetched!");
+// array here stores the response and I dont know why response.data.data works and not repsonse.data 
 				var array = response.data.data;
-				//console.log(array);
-				//alert("could not find the result!")
+//this if statement is used because for false search backend sends an empty array so if the array is empty means wrong search
 				if(response.data.data.length===0)
 				alert("could not find the result!")
 				var varnode = [];
@@ -105,21 +114,19 @@ function fetchlevel3(epg) {
 				var newInterfaceLinks = [];
 				var newEndpoints = [];
 				var newVms = [];
-				//var newLeafs = [];
+// here maxNodeInLevel as name suggests is maximum node that can be rendered at any paticular y coordinate	
 				var maxNodesInLevel = 14;
 				var nodesLeft = array.length;
-				var theta, radius=4, maxRadius, myObj, x, z;
+				var theta, radius=4, myObj, x, z;
 				var y = 5;
-				//var counter = 0;
+//the falg isinterface is made true because for level3 we will show interface and node together
 				setisinterface(true);
+// this for loop will compute coorinates for each nodes 
 				for (var i in array) {
-					//console.log(array[i]);
 					theta =(2 * Math.PI) / Math.min(maxNodesInLevel, nodesLeft);
 					radius = maxNodesInLevel;
-
 					x = radius * Math.cos(theta * i);
 					z = radius * Math.sin(theta * i);
-
 					myObj = {
 						data: array[i],
 						position: [x, y, z],
@@ -140,11 +147,6 @@ function fetchlevel3(epg) {
 						.map((node) => node.data.nodeName)
 						.indexOf(array[i].nodeName);
 					if (nodeIndex >= 0 && nodeIndex < tempCombined.length) {
-						//varnode.push(tempCombined[nodeIndex]);
-						//counter++;
-						// newDefaultLoc[0] += tempCombined[nodeIndex].position[0];
-						// newDefaultLoc[1] += tempCombined[nodeIndex].position[1];
-						// newDefaultLoc[2] += tempCombined[nodeIndex].position[2];
 						if (tempCombined[nodeIndex].data.nodeRole === "spine") {
 							spine.push(tempCombined[nodeIndex]);
 						} else if (
@@ -311,6 +313,7 @@ function fetchlevel3(epg) {
 		//very strange, could not find anything online
 		// setSelectedNode(nodeData);
 	}
+	//this function helps to expand a node and then show its interfaces and all
 	function fetchData2(nodeData) {
 		//for fetching data for level
 		//console.log(nodeData);
@@ -329,8 +332,7 @@ function fetchlevel3(epg) {
 				setStatusMsg("data successfully fetched!");
 
 				var input = response.data.data[0].interface;
-				//console.log(input);
-
+				
 				var newInterfaces = [];
 				var newInterfaceLinks = [];
 				var newEndpoints = [];
@@ -342,15 +344,12 @@ function fetchlevel3(epg) {
 
 				var radius, theta;
 				var counter = 0;
-				// var y = nodeData.position[1] + 5;
 				var y = 2;
+//if statemenet here is used to adjust the y axis for interface in case of a spine
 				if (nodeData.data.nodeRole === "spine") {
 					y = nodeData.position[1]-2;
 				}
-				//console.log(nodeData);
-
 				for (let i in input) {
-					//console.log(y);
 					theta =
 						(2 * Math.PI) / Math.min(maxNodesInLevel, nodesLeft);
 					radius = maxNodesInLevel / 2;
@@ -358,6 +357,8 @@ function fetchlevel3(epg) {
 						nodeData.position[0] + radius * Math.cos(theta * i);
 					const z =
 						nodeData.position[2] + radius * Math.sin(theta * i);
+//in myObj i have included radius, theta and centre because we need to render leafs when spine is expanded so in 
+//order to calculate their coordinates such that leaf appear next to an interface in a circle 
 						const myObj = {
 							data: input[i],
 							radius:radius,
@@ -365,21 +366,22 @@ function fetchlevel3(epg) {
 							centre:[nodeData.position[0],nodeData.position[2]],
 							position: [x, y, z],
 						};
+						//links
 					newInterfaceLinks.push({
 						src: nodeData.position,
 						target: [x, y, z],
 						id: `${myObj.data.sourceName}`,
 					});
 					newInterfaces.push(myObj);
-					//console.log(newInterfaceLinks);
-					//endpoints
-					var m = 0;
+					var theat1= 0;
+//extracting the details for enpoints
 					if (input[i].endpoints !== undefined) {
-						m = (2*Math.PI)/(input[i].endpoints.length);
+//distributing the endpoints in a circle with the interface being the center
+						theat1 = (2*Math.PI)/(input[i].endpoints.length);
 						var radius2 = input[i].endpoints.length/2;
 						for(var k in input[i].endpoints){
-							const x_cor=x+radius2 * Math.cos(m * k);
-							const z_cor =z+radius2 * Math.sin(m * k);
+							const x_cor=x+radius2 * Math.cos(theat1 * k);
+							const z_cor =z+radius2 * Math.sin(theat1 * k);
 							
 						const endObj = {
 							data: input[i].endpoints[k],
@@ -387,7 +389,7 @@ function fetchlevel3(epg) {
 						
 						};
 						newEndpoints.push(endObj);
-					
+//link between interface and endpoints			
 						newInterfaceLinks.push({
 							color: "red",
 							src: [x, y, z],
@@ -398,7 +400,6 @@ function fetchlevel3(epg) {
 						//vms
 
 						if (input[i].endpoints[k].vmName !== undefined) {
-							//console.log(epg);
 							const vmObj = {
 								data: input[i].endpoints[k].epg,
 								vmName: input[i].endpoints[k].vmName,
@@ -406,6 +407,7 @@ function fetchlevel3(epg) {
 								position: [x_cor, y + 10, z_cor],
 							};
 							newVms.push(vmObj);
+							//link
 							newInterfaceLinks.push({
 								color: "green",
 								src: [x_cor, y + 5, z_cor],
@@ -452,6 +454,7 @@ function fetchlevel3(epg) {
 							position:[x1,tempCombined[targetIndex].position[1]-8,z1],
 						};
 						newSpines.push(myobject);
+						//link
 						newInterfaceLinks.push({
 							src: [x1,tempCombined[targetIndex].position[1]-8,z1],
 							target: nodeData.position,
@@ -494,13 +497,11 @@ function fetchlevel3(epg) {
 				setlevel2spine(newSpines);
 				setlevel2leaf(newleaf);
 			}
-				//console.log(newVms);
+				
 				setInterfaces(newInterfaces);
 				setInterfaceLink(newInterfaceLinks);
 				setEndpoints(newEndpoints);
 				setEpg(newVms);
-				// setDefaultCameraLoc([maxNodesInLevel*1.3, y + 10, maxNodesInLevel*1.3]);
-				// setDefaultCameraLookAt([0, y / 2, 0]);
 			})
 			.catch((error) => {
 				setErrorMsg("could not fetch data");
@@ -516,7 +517,7 @@ function fetchlevel3(epg) {
 			clearTimeout(timeoutId);
 		};
 	}, []);
-
+//this is used to reset the camera to intial position
 	function resetCamera() {
 		if(level3===false){
 		setEndpoints([]);
@@ -529,6 +530,7 @@ function fetchlevel3(epg) {
 		setTargetPosition(new THREE.Vector3(...defaultCameraLoc));
 		setTargetLookAt(defaultCameraLookAt);
 	}
+//this function resets everyting and then render topology 
 	function reloadLevel1() {
 		setEndpoints([]);
 		setEpg([]);
@@ -554,8 +556,9 @@ function fetchlevel3(epg) {
 		setlevel2spine([]);
 		setlevel2leaf([]);
 	}
-	//fetch level one data
+	//fetch level one data i.e data  for topology
 	function fetchData1() {
+//if there is any pre-rendered object in canvas than that is removed before rendering the topology
 		setInterfaces([]);
 		setInterfaceLink([]);
 		setSelectedNode(null);
@@ -805,6 +808,7 @@ function fetchlevel3(epg) {
 							marginTop: 10,
 						}}
 					>
+{/* NodePopup,NodePopUp1,2 and 3 are used to show the table associated with the node on being hovered */}
 						<NodePopUp nodeData={hoverNode} isinterface={isinterface}/>
 						<NodePopUp1 nodeData={hoverNode1} />
 						<NodePopUp2 nodeData={hoverNode2} />
